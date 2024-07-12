@@ -29,3 +29,10 @@ Arena-hard 是用来测试LLM在解决复杂问题时的鲁棒性的benchark
 Alpaca-Eval 2.0
 
 # code
+
+## logit 使用
+明确模型训练时要学的东西是什么,模型不需要学chat_template,template仅仅是作为一个prompt,简单来说
+模型inference时需要看到template,但是模型不需要学习输出它们(除了eos),所以我们计算loss的时候不应该把
+template的部分也纳入进来,否则会导致平均的loss过大,同时还需要注意loss计算时需要把padding排除在外.
+
+## 基本pipline完成了
