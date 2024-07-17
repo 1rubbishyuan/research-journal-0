@@ -17,7 +17,7 @@ Ludii 使用关键词来代表操作,使用bool的变量来代表游戏的某些
 #### LM training
 FITM???
 #### Evolutionary Search
-???
+一些数学建模算法
 
 # code
 1. wandb很好配置
