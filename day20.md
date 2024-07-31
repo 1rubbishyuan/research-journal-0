@@ -16,9 +16,9 @@
 
 # code
 
-1. 不同的指标 (衡量conversation diversity的指标)
+1. 不同的指标 (衡量conversation diversity的指标) ??
 2. 泛化（模型直接迁移）+不泛化（在不同任务上直接去tune） 2.5
-3. qa数据集更多一些 1 
+3. qa数据集更多一些 1  multi_wiki_qa(已经接入)
 4. 接具身的场景 2 (task diverse) https://github.com/MandiZhao/robot-collab
-5. 迭代（脚本） 1.5
-6. baseline : CoT+self-consistance(问题在于不好single)
+5. 迭代（脚本） 1.5 完成了
+6. baseline : CoT+self-consistance(问题在于不好single),无context的情况,rest
